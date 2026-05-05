@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Hoovi Music</string>
+	<key>CFBundleName</key>
+	<string>Hoovi Music</string>
+	<key>HooviMusicBrandNote</key>
+	<string>Reference branding file. Merge these display-name values into Runner/Info.plist during the native iOS branding pass after reading the current Info.plist content.</string>
+</dict>
+</plist>
