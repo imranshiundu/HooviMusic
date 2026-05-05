@@ -1,0 +1,19 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lav" x1="20" y1="30" x2="250" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E8FF"/>
+      <stop offset="0.45" stop-color="#B989FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="44" fill="#08050E"/>
+  <g transform="translate(48 34)">
+    <rect width="152" height="152" rx="38" fill="#140C22"/>
+    <path d="M34 88C50 48 87 31 123 42C139 47 149 57 155 67" stroke="url(#lav)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="78" cy="78" r="35" fill="url(#lav)"/>
+    <circle cx="78" cy="78" r="18" fill="#08050E"/>
+    <path d="M72 65L96 78L72 91V65Z" fill="#F8F5FF"/>
+  </g>
+  <text x="236" y="100" fill="#F8F5FF" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="850">Hoovi Music</text>
+  <text x="240" y="145" fill="#CDB7FF" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500">Import. Match. Keep. Play offline.</text>
+</svg>
