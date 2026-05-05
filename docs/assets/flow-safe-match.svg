@@ -1,0 +1,46 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#201532"/>
+      <stop offset="1" stop-color="#100A1C"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="180" x2="1120" y2="180">
+      <stop stop-color="#B989FF"/>
+      <stop offset="1" stop-color="#F4E9FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="30" fill="#08060F"/>
+  <path d="M144 180H1056" stroke="url(#line)" stroke-width="4" stroke-dasharray="12 14" opacity="0.65"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(64 96)">
+      <rect width="160" height="168" rx="26" fill="url(#card)" stroke="#B989FF" stroke-opacity="0.35"/>
+      <circle cx="80" cy="58" r="24" fill="#B989FF"/>
+      <text x="80" y="112" text-anchor="middle" fill="#F8F5FF" font-size="20" font-weight="800">Import</text>
+      <text x="80" y="140" text-anchor="middle" fill="#CDB7FF" font-size="13">metadata only</text>
+    </g>
+    <g transform="translate(272 96)">
+      <rect width="160" height="168" rx="26" fill="url(#card)" stroke="#B989FF" stroke-opacity="0.35"/>
+      <circle cx="80" cy="58" r="24" fill="#F4E9FF"/>
+      <text x="80" y="112" text-anchor="middle" fill="#F8F5FF" font-size="20" font-weight="800">Scan</text>
+      <text x="80" y="140" text-anchor="middle" fill="#CDB7FF" font-size="13">local files</text>
+    </g>
+    <g transform="translate(480 96)">
+      <rect width="160" height="168" rx="26" fill="url(#card)" stroke="#B989FF" stroke-opacity="0.35"/>
+      <circle cx="80" cy="58" r="24" fill="#B989FF"/>
+      <text x="80" y="112" text-anchor="middle" fill="#F8F5FF" font-size="20" font-weight="800">Match</text>
+      <text x="80" y="140" text-anchor="middle" fill="#CDB7FF" font-size="13">score confidence</text>
+    </g>
+    <g transform="translate(688 96)">
+      <rect width="160" height="168" rx="26" fill="url(#card)" stroke="#B989FF" stroke-opacity="0.35"/>
+      <circle cx="80" cy="58" r="24" fill="#F4E9FF"/>
+      <text x="80" y="112" text-anchor="middle" fill="#F8F5FF" font-size="20" font-weight="800">Check</text>
+      <text x="80" y="140" text-anchor="middle" fill="#CDB7FF" font-size="13">source rules</text>
+    </g>
+    <g transform="translate(896 96)">
+      <rect width="240" height="168" rx="26" fill="url(#card)" stroke="#B989FF" stroke-opacity="0.35"/>
+      <circle cx="120" cy="58" r="24" fill="#B989FF"/>
+      <text x="120" y="112" text-anchor="middle" fill="#F8F5FF" font-size="20" font-weight="800">Play Offline</text>
+      <text x="120" y="140" text-anchor="middle" fill="#CDB7FF" font-size="13">when storage is allowed</text>
+    </g>
+  </g>
+</svg>
