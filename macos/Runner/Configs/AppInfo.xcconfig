@@ -1,14 +1,12 @@
 // Application-level settings for the Runner target.
 //
-// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
-// future. If not, the values below would default to using the project name when this becomes a
-// 'flutter create' template.
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the future. If not, the values below should be kept aligned with the app brand.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = Spotube
+PRODUCT_NAME = Hoovi Music
 
-// The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = oss.krtirtho.spotube
+// The application's bundle identifier.
+PRODUCT_BUNDLE_IDENTIFIER = com.imranshiundu.hoovimusic
 
-// The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2022 oss.krtirtho. All rights reserved.
+// The copyright displayed in application information.
+PRODUCT_COPYRIGHT = Copyright © 2026 Imran Shiundu. All rights reserved.
