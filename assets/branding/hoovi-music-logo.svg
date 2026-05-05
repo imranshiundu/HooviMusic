@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A102B"/>
+      <stop offset="1" stop-color="#06040B"/>
+    </linearGradient>
+    <linearGradient id="lav" x1="96" y1="88" x2="416" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E8FF"/>
+      <stop offset="0.45" stop-color="#B989FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.55 0 0 0 0 0.33 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="28" y="28" width="456" height="456" rx="112" fill="url(#bg)"/>
+  <path d="M111 280C155 164 257 114 357 141C403 153 430 179 447 205" stroke="url(#lav)" stroke-width="28" stroke-linecap="round" opacity="0.95"/>
+  <path d="M84 317C154 253 238 244 319 280C369 302 413 301 454 275" stroke="#F3E8FF" stroke-opacity="0.24" stroke-width="18" stroke-linecap="round"/>
+  <g filter="url(#glow)">
+    <circle cx="233" cy="246" r="92" fill="url(#lav)"/>
+    <circle cx="233" cy="246" r="48" fill="#08050E"/>
+    <path d="M218 212L278 246L218 280V212Z" fill="#F8F5FF"/>
+  </g>
+  <circle cx="378" cy="214" r="34" fill="#F8F5FF" fill-opacity="0.10" stroke="#F8F5FF" stroke-opacity="0.18" stroke-width="4"/>
+  <path d="M363 215L374 226L394 201" stroke="#F8F5FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
